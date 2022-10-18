@@ -89,7 +89,6 @@ public function up(Schema $schema): void
 
 - Effectuer la migration avec le bon identifiant de la migration dans le fichier `Versionxxxxx` : 
    - `symfony console doctrine:migrations:execute 'DoctrineMigrations\Versionxxxxx'`
-   - `symfony console doctrine:migrations:generate`
 
 - On liste tous les articles dans notre controller `Home` :
 
