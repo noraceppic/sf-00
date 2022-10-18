@@ -185,7 +185,6 @@ Adapter cette presentation des articles en les mettant dans des **cards** avec *
 
     {% for article in liste_article %}
 
-        <li>{{ article.titre }}</li>
         <li>{{ article.titre }} - <a href="{{ path ('route_article', {'id': article.id}) }}">lien</a></li>
 
     {% endfor %}
